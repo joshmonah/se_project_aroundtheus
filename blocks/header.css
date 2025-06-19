@@ -1,0 +1,28 @@
+.header {
+  margin-top: 45px;
+  max-width: 880px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  /* background: url(../images/Line.svg) no-repeat center bottom;*/
+}
+
+.header__title {
+  padding-bottom: 41px;
+}
+
+@media screen and (max-width: 900px) {
+  .header__title {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    margin-top: 0px;
+  }
+
+  .header__title {
+    width: 126px;
+    height: 24px;
+    padding: 28px 0 32px 27px;
+  }
+}
